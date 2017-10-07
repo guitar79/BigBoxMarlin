@@ -132,7 +132,7 @@ bool HAL_adc_finished(void) {
 // possible config options if something similar is extended to more platforms.
 #define ADC_USE_MEDIAN_FILTER      // filter out erroneous readings
 #define ADC_USE_LOWPASS_FILTER     // filter out high frequency noise
-#define ADC_LOWPASS_K_VALUE 4      // how much to smooth out noise (1:8)
+#define ADC_LOWPASS_K_VALUE 6      // how much to smooth out noise (1:8)
 
 struct MedianFilter {
   uint16_t values[3];

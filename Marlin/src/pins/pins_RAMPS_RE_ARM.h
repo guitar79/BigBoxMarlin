@@ -100,14 +100,14 @@
 // Temperature Sensors
 //  3.3V max when defined as an analog input
 //
-#define TEMP_0_PIN         0  //A0 (T0) - D67 - TEMP_0_PIN
+#define TEMP_0_PIN         3  //A0 (T0) - D67 - TEMP_0_PIN
 #define TEMP_BED_PIN       1  //A1 (T1) - D68 - TEMP_BED_PIN
-#define TEMP_1_PIN         2  //A2 (T2) - D69 - TEMP_1_PIN
-#define TEMP_2_PIN         3  //A3 - D63 - J5-3 & AUX-2
-#define TEMP_3_PIN         4  //A4 - D37 - BUZZER_PIN
+#define TEMP_1_PIN         -1  //A2 (T2) - D69 - TEMP_1_PIN
+#define TEMP_2_PIN         -1  //A3 - D63 - J5-3 & AUX-2
+#define TEMP_3_PIN         -1  //A4 - D37 - BUZZER_PIN
 //#define TEMP_4_PIN         5  //A5 - D49 - SD_DETECT_PIN
 //#define ??               6  //A6 - D0  - RXD0 - J4-4 & AUX-1
-#define FILWIDTH_PIN       7  //A7 - D1  - TXD0 - J4-5 & AUX-1
+#define FILWIDTH_PIN       -1  //A7 - D1  - TXD0 - J4-5 & AUX-1
 
 
 //
