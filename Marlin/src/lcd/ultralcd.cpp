@@ -39,6 +39,10 @@
 
 #include "../Marlin.h"
 
+#if ENABLED(BABYSTEP_ZPROBE_GFX_OVERLAY)
+  #include "dogm/dogm_bitmaps.h"
+#endif
+
 #if ENABLED(PRINTCOUNTER) && ENABLED(LCD_INFO_MENU)
   #include "../libs/duration_t.h"
 #endif
